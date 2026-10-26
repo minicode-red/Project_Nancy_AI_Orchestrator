@@ -1,0 +1,2 @@
+E:\Meta_FLY\spatial_intent_middleware\unity_ar_headset\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+E:\Meta_FLY\spatial_intent_middleware\unity_ar_headset\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

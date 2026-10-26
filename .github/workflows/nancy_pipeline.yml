@@ -1,0 +1,26 @@
+name: Project Nancy Unity CI Testing Pipeline
+
+on:
+  push:
+    branches: [main, development, dev_env]
+  pull_request:
+    branches: [main, development, dev_env]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Source Code Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python Environment
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Validate Python syntax in CI
+        env:
+          CI: "true"
+        run: |
+          python -m compileall simulation

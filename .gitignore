@@ -1,0 +1,21 @@
+# Unity temporary and generated workspace caches
+/[Uu]nity_[Aa]r_[Hh]eadset/[Ll]ibrary/
+/[Uu]nity_[Aa]r_[Hh]eadset/[Tt]emp/
+/[Uu]nity_[Aa]r_[Hh]eadset/[Oo]bj/
+/[Uu]nity_[Aa]r_[Hh]eadset/[尝]ogs/
+/[Uu]nity_[Aa]r_[Hh]eadset/[Uu]nityConfiguration.gen.bmp
+/[Uu]nity_[Aa]r_[Hh]eadset/[Cc][Aa]che/
+
+# Visual Studio / Rider generated project files
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+.vs/
+
+# Python temporary caches
+__pycache__/
+*.pyc
+.venv/

@@ -1,0 +1,19 @@
+# ninja log v5
+5589	59683	8117896599601383	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	637aa8655e63815f
+5741	56781	8117896599661381	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	9ec08523df997f42
+59670	62428	8117896660236264	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	1efdd6efaf3301ca
+62428	69269	8117896728407904	E:/FLY/spatial_intent_middleware/unity_ar_headset/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/43564aj3/obj/arm64-v8a/libgame.so	55b3bbe1da3254e0
+5682	59670	8117896599681378	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	191b2492cc5c2f30
+5798	59703	8117896599691375	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	6eec8a8a8b2730a4
+593	59686	8117896599821367	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	ae2b300c98d2087b
+56782	61696	8117896652926337	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	395ba13a8f8c5b11
+5610	59694	8117896602603848	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	bbe912396aafb1b4
+3661	32461	8118221449966278	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	ae2b300c98d2087b
+450	34504	8118221449656266	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	191b2492cc5c2f30
+3686	34517	8118221449826281	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	6eec8a8a8b2730a4
+3652	34520	8118221449526285	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	637aa8655e63815f
+3678	34525	8118221451491462	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	395ba13a8f8c5b11
+3670	34533	8118221452051779	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	bbe912396aafb1b4
+32461	36153	8118221488427431	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	9ec08523df997f42
+34504	37418	8118221498860424	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	1efdd6efaf3301ca
+37419	41613	8118221543028585	E:/FLY/spatial_intent_middleware/unity_ar_headset/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/43564aj3/obj/arm64-v8a/libgame.so	55b3bbe1da3254e0
