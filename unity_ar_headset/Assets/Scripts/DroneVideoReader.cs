@@ -5,17 +5,21 @@ using System.Threading;
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class DroneVideoReader : MonoBehaviour
 {
     [Header("Network Configuration")]
-    [SerializeField] private string streamUrl = "http://10.94.70.75:8080/stream.mjpg";
+    [SerializeField] private string streamUrl = "http://10.193.201.75:8080/stream.mjpg"; // 
 
     [Header("UI Target Allocation")]
     [SerializeField] private RawImage displayImage;
 
     [Header("Diagnostic Heartbeat Indicator")]
     [SerializeField] private MeshRenderer diagnosticCubeRenderer;
+
+    [Header("Diagnostic Drone Camera Status")]
+    [SerializeField] private TextMeshProUGUI droneCameraStatus;
 
     private Texture2D _videoTexture;
     private HttpClient _httpClient;
@@ -67,12 +71,15 @@ public class DroneVideoReader : MonoBehaviour
             {
                 case StreamStatus.Idle:
                     UpdateCubeColor(Color.yellow);
+                    droneCameraStatus.text = "Idle";
                     break;
                 case StreamStatus.Connected:
                     UpdateCubeColor(Color.green);
+                    droneCameraStatus.text = "Online";
                     break;
                 case StreamStatus.Failed:
                     UpdateCubeColor(Color.red);
+                    droneCameraStatus.text = "Offline";
                     break;
             }
         }
@@ -145,6 +152,7 @@ public class DroneVideoReader : MonoBehaviour
         if (diagnosticCubeRenderer != null && diagnosticCubeRenderer.material != null)
         {
             diagnosticCubeRenderer.material.color = color;
+            droneCameraStatus.color = color;
         }
     }
 

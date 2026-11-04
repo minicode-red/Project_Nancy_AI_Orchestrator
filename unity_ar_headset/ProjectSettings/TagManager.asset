@@ -31,6 +31,9 @@ TagManager:
   - SamplesInfoPanel
   - QDSUIToggleCheckboxRadio
   - QDSUIToggleThumbnail
+  - Object
+  - Human
+  - DroneN
   layers:
   - Default
   - TransparentFX
@@ -38,7 +41,7 @@ TagManager:
   - Overlay UI
   - Water
   - UI
-  - 
+  - RoomMesh
   - 
   - 
   - 
