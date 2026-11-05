@@ -382,7 +382,7 @@ class ProjectNancyUSBBridge:
 
         # Configure Meta AI API Infrastructure Authentication Matrix
         META_SPARK_URL = "https://api.llama.com/v1/chat/completions"
-        META_API_KEY = "LLM_1686390322836457_Bj0IuPhzQVmAMtpYOxhSov100NE"  # Put your key here safely on your laptop backend
+        META_API_KEY = "LLM_100NE"  # Put your key here safely on your laptop backend
 
         # Local internal storage register to track long-form situational reasoning
         if not hasattr(self, 'current_muse_insight'):
