@@ -72,3 +72,11 @@ Method B: Local Simulation Environment (Testing Profile)
 2. Run the simulation driver file in a secondary terminal window to map your computer keyboard or standard mouse movements to gesture parameters:
 
 Once step 1 and step 2 are linked, the console will display [QUEST UPLINK RECEIVED] indicators, confirming that manual gesture overrides are actively commanding the MAVLink flight deck.
+
+==========================================
+# Find Nancy — The Nancy Smart Box (TRL 5)
+
+[![Find Nancy Video Demo](https://youtube.com)](https://youtu.be/fLbJmu4NnnY)
+
+*Click the image above to watch the fully operational system demonstration.*
+
