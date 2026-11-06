@@ -47,11 +47,10 @@ Follow these steps to initialize and run the Find Nancy (Nancy Smart Box) system
 Step 1: Initialize the Edge Core (Python Backend)
 
 The primary telemetry router, live ingestion node, and local object detection pipeline run from your local terminal workspace.
-1. Navigate to your project directory.
-2. Launch the asynchronous controller script to open serial data streams and start the background live HTTP stream listener:
+1. Navigate to your project directory - open simulation folder and run nancy_core.py.
 
 bash
-python main.py
+python nancy_core.py
 
 3. Verify that the terminal outputs show the telemetry router, video ingestion thread, and localized object tracking AI core are running in an [ONLINE] state.
 
@@ -65,7 +64,9 @@ Method A: Physical Hardware Deployment (Meta Quest)
 2. Install the Application: Side-load the file onto your Meta Quest headset using an installation tool like SideQuest or via the Android Debug Bridge CLI:
 
 bash
-adb install -r nancy_gesture_core.apk
+adb install -r FindNancyN74.apk
+
+FindNancyN74 is located in the release tag
 
 3. Launch the Core: Power on the headset, launch the application from your unknown sources directory, and stand away from your face to calibrate spatial tracking bounds.
 
