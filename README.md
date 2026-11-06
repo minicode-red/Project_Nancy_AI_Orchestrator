@@ -1,6 +1,9 @@
 # Project_Nancy_Showcase
 Meta Horizon Start Competition Showcase. Features the Unity v207 Spatial HUD Interface and autonomous companion simulation pipeline for Project Nancy.
 
+# 🚀 Meta AI Competition Build
+**Please download and install the runnable APK from the [Releases]() tab to test the application live.**
+
 =================================================================
 Flight Control Interface Specifications: Spatial Gesture Commands
 ==================================================================
